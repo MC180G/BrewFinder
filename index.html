@@ -91,27 +91,32 @@
         </div>
     </div>
 
-    <form>
+    <form autocomplete="off">
         <div class="jumbotron jumbotron-fluid">
             <div class="container form">
-                <div class="form-group">
+
+                <div class="form-group autocomplete">
                     <h3><b>Find a Brew</b></h3>
                     <p class="data"><b>Search for a brewery by entering in the appropriate information in the search fields</b></p><br>
+                    
                     <label for="brewery-name">Brewery Name</label>
                     <input type="text" class="form-control" id="brewery-name" placeholder="Search by brewery here">
 
                 </div>
 
-                <div class="form-group">
+                <div class="form-group autocomplete">
                     <label for="city">City</label>
                     <input type="text" class="form-control" id="city" placeholder="Search by city here">
                 </div>
+                <br>
 
-                <div class="form-group">
+                <div class="form-group autocomplete">
+                    
                     <label for="state">State</label>
                     <input type="text" class="form-control" id="state"
                         placeholder="Search by state here (no abbreviations)">
                 </div>
+                <br>
 
                 <button id="add-brew" type="submit" value="Submit"
                     class="btn btn-outline-light"><strong>Cheers</strong><img
